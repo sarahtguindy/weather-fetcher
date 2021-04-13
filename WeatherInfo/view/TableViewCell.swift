@@ -9,9 +9,11 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
-    @IBOutlet var lblMissionName : UILabel!
-    @IBOutlet var tvStatusDetails : UITextView!
-    @IBOutlet var tvFailureReason : UITextView!
+    @IBOutlet var lblCity : UILabel!
+    @IBOutlet var lblTemp : UILabel!
+    @IBOutlet var lblFeelsLike : UILabel!
+    @IBOutlet var lblWind : UILabel!
+
     
     override func awakeFromNib() {
         super.awakeFromNib()

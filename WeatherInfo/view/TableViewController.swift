@@ -36,15 +36,15 @@ class TableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "LaunchCell", for: indexPath) as! TableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "WeatherCell", for: indexPath) as! TableViewCell
         
         // Configure the cell...
         
         print(#function,self.launchList[indexPath.row] )
         
-        cell.lblMissionName.text = ""
-        cell.tvStatusDetails.text = ""
-        cell.tvFailureReason.text = ""
+//        cell.lblMissionName.text = ""
+//        cell.tvStatusDetails.text = ""
+//        cell.tvFailureReason.text = ""
 
         return cell
     }
